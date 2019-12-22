@@ -1,0 +1,131 @@
+<view class="container container-fill" >
+	<view class="scroll-fullpage" bindtouchstart="scrollTouchstart" bindtouchmove="scrollTouchmove" bindtouchend="scrollTouchend" style="transform:translateY(-{{scrollindex*100}}%);margin-top: {{margintop}}px">
+		<view class="section section01 {{scrollindex==0?'active':''}}" style="background: #3399FF;">
+			<text class="section-maintitle"> \t你知道吗？</text>
+			<text class="section-subtitle">久坐的危害</text>
+      <text class="section-subtitle">不只是会变胖</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">还有其他的问题</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+       <text class="section-subtitle">\n</text>
+		</view>
+
+		<view class="section section02 {{scrollindex==1?'active':''}}" style="background: #00CC66;">
+			<text class="section-maintitle">多项研究表明</text>
+			<text class="section-subtitle">久坐静态行为会增加</text>
+      <text class="section-subtitle">腰椎病</text>
+      <text class="section-subtitle">颈椎病</text>
+      <text class="section-subtitle">心血管病</text>
+      <text class="section-subtitle">......</text>
+      <text class="section-subtitle">总之就是</text>
+      <text class="section-subtitle">增加很多疾病的风险</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+		</view>
+
+		<view class="section section03 {{scrollindex==2?'active':''}}" style="background: #33CCCC;">
+			<text class="section-maintitle">因此</text>
+			<text class="section-subtitle">我们应当改变</text>
+      <text class="section-maintitle">静态行为为主的生活方式</text>
+      <text class="section-subtitle">这不仅要求我们</text>
+      <text class="section-subtitle">要减少静态生活的时间</text>
+      <text class="section-subtitle">我们还应该</text>
+      <text class="section-subtitle">在静态生活中</text>
+      <text class="section-subtitle">穿插一些简短的运动</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+		</view>
+
+		<view class="section section04 {{scrollindex==3?'active':''}}" style="background: #6699FF;">
+			<text class="section-maintitle">打破静态行为的持续性</text>
+			<text class="section-subtitle">可以有效缓解久坐的危害</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+		</view>
+	 	<view class="section section05 {{scrollindex==4?'active':''}}" style="background: #9966FF;">
+			<text class="section-maintitle">我们制作这个项目</text>
+			<text class="section-subtitle">主要是想</text>
+      <text class="section-subtitle">提醒同学们</text>
+      <text class="section-subtitle">减少静态生活</text>
+      <text class="section-subtitle">更多的活动身体</text>
+      <text class="section-subtitle">为以后的努力</text>
+      <text class="section-subtitle">打下健康的基础</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+      <text class="section-subtitle">\n</text>
+		</view>
+	</view>
+</view>

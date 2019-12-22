@@ -1,0 +1,53 @@
+{
+  "pages": [
+    
+    "pages/today/today",
+    "pages/rank/rank",
+    "pages/intro/intro",
+    "pages/login/login",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "久坐时长小助手",
+    "navigationBarTextStyle": "black"
+  },
+
+        "tabBar": {
+          "color": "#a9b7b7",
+          "selectedColor": "#11cd6e",
+          "borderStyle": "black",
+          "list": [
+
+            {
+              "selectedIconPath": "images/data.png",
+              "iconPath": "images/data.png",
+              "pagePath": "pages/today/today",
+              "text": "我的数据"
+            },          
+            
+            {
+              "selectedIconPath": "images/intro.png",
+              "iconPath": "images/intro.png",
+              "pagePath": "pages/intro/intro",
+              "text": "科普"
+            }
+          ]
+        },
+  
+      "sitemapLocation": "sitemap.json",
+      "style": "v2"
+}
