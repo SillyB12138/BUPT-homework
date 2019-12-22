@@ -3,10 +3,10 @@ int Sensor=A2;
 float t=0;//时间判断变量
 float TT=30;//记录单次时长变量
 int total=0;//记录总时长的变量
-#define SSID        "bhls wifi" //改为你的热点名称, 不要有中文
-#define PASSWORD    "2000BAOHONGLIN5@"//改为你的WiFi密码Wi-Fi密码
-#define DEVICEID    "577811107" //OneNet上的设备ID
-String apiKey = "ZKCaV2bQ5z5cVmQeGEu7G7kvvAw=";//与你的设备绑定的APIKey
+#define SSID        "**********" //改为你的热点名称, 不要有中文
+#define PASSWORD    "**********"//改为你的WiFi密码Wi-Fi密码
+#define DEVICEID    "**********" //OneNet上的设备ID
+String apiKey = "*********************";//与你的设备绑定的APIKey
 
 /***/
 #define HOST_NAME   "api.heclouds.com"
